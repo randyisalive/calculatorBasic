@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    display: block;
+    width: 500px;
+    height: 600px;
+    border: solid black;
+
+
+}
+
+#result {
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.screen {
+    background-color: red; 
+}
+
+.btn-container {
+    height: inherit;
+    background-color: blue;
+    width: inherit;
+}
+
+#C {
+    width: ;
+    flex-basis: 20%;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    padding: 20px;
+    font-size: 28px;
+    margin: 8px;
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 20px;
+    
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    opacity: 0.4;
+}
+
+
+#zero {
+    background-color: orange;
+    width: 190px;
+}
